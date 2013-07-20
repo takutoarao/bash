@@ -10,4 +10,4 @@ alias ll='ls -laF'
 alias rm='rm -i'
 alias ls='ls --color=auto'
 #alias apt-cyg='apt-cyg -u -m http://ftp.iij.ad.jp/pub/cygwin/'
-
+alias subl='sublime_text.exe'
