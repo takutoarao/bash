@@ -16,6 +16,7 @@ alias gvim='/cygdrive/c/Program\ Files/vim/gvim.exe'
 # git command
 alias gitch="git checkout"
 alias gitst="git status"
-alias gitco="git commit -a"
-alias gitdif="git diff"
+alias gitco="git commit -m"
+alias gitdf="git diff"
 alias gitbr="git branch"
+alias gitad="git add"
