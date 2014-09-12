@@ -10,6 +10,13 @@ alias l='ll -rt'
 alias ll='ls -laF'
 alias rm='rm -i'
 alias ls='ls --color=auto'
+
+cd() { builtin cd "$@"; ll; }               # Always list directory contents upon 'cd'
+alias qfind="find . -name "                 # qfind:    Quickly search for file
+ff () { /usr/bin/find . -name "$@" ; }      # ff:       Find file under the current directory
+ffs () { /usr/bin/find . -name "$@"'*' ; }  # ffs:      Find file whose name starts with a given string
+ffe () { /usr/bin/find . -name '*'"$@" ; }  # ffe:      Find file whose name ends with a given string
+
 #alias apt-cyg='apt-cyg -u -m http://ftp.iij.ad.jp/pub/cygwin/'
 alias subl='sublime_text.exe'
 alias gvim='/cygdrive/c/Program\ Files/vim/gvim.exe'
