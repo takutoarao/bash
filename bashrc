@@ -8,7 +8,7 @@ alias fgrep='fgrep --color=auto'              # show differences in colour
 PS1="[\D{%Y/%m/%d} \[\e[1;32m\]\t\[\e[00m\] \W] \$ "
 alias l='ll -rt'
 alias ll='ls -laF'
-alias rm='rm -i'
+alias rm='rm -iv'
 alias ls='ls --color=auto'
 
 cd() { builtin cd "$@"; ll; }               # Always list directory contents upon 'cd'
